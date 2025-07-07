@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    height: 60px;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #be29ec;
+    color: white;
+}
+
+.content {
+    display: flex;
+    gap: 15px;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+.content a:hover{
+    /* font-size: 25px; */
+    transform: scale(1.1);
+}
+.content a{
+    text-decoration: none;
+    color: white;
+}
