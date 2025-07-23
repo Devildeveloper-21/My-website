@@ -31,3 +31,17 @@
     text-decoration: none;
     color: white;
 }
+.about-container{
+    background-color: #cf73ea;
+    height: 300px;
+    margin: 30px;
+    border-radius: 20px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.image img{
+    height: 260px;
+    padding: 20px;
+    float: right;
+    border-radius: 40px;
+}
